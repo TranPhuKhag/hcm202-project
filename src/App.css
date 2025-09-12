@@ -2,21 +2,22 @@
 
 /* --- CSS Variables for Modern Theming --- */
 :root {
-  --primary-color: #c53030;
-  --primary-gradient: linear-gradient(135deg, #e53e3e, #c53030);
-  --secondary-color: #2d3748; /* Dark charcoal for text */
-  --text-color: #4a5568;      /* Lighter gray for body text */
-  --background-color: #f7fafc;
-  --card-background: #ffffff;
-  --border-color: #e2e8f0;
-  --success-color: #38a169;
-  --error-color: #c53030;
-  --warning-color: #dd6b20;
-  --info-color: #3182ce;
-  --font-family: 'Be Vietnam Pro', sans-serif;
-  --card-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.07), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-  --card-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
-  --border-radius: 12px;
+    /* Colors for a warm, minimalist theme with a light yellow background */
+    --primary-color: #d32f2f; /* Darker red for main accents, from the logo */
+    --primary-gradient: linear-gradient(135deg, #ef5350, #d32f2f); /* A softer red gradient */
+    --secondary-color: #3e2723; /* A warm, dark brown for headers and important text */
+    --text-color: #5d4037;      /* A warm brown for body text, complements the background */
+    --background-color: #fff8e1; /* Soft, light yellow background */
+    --card-background: #fffde7;  /* A slightly lighter yellow for cards to create contrast */
+    --border-color: #e0e0e0;
+    --success-color: #43a047;
+    --error-color: #d32f2f;
+    --warning-color: #fb8c00;
+    --info-color: #29b6f6;
+    --font-family: 'Be Vietnam Pro', sans-serif;
+    --card-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    --card-shadow-hover: 0 8px 25px rgba(0, 0, 0, 0.1);
+    --border-radius: 12px;
 }
 
 /* --- Base & Reset Styles --- */
