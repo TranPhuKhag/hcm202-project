@@ -2,11 +2,10 @@ import type { LessonContent } from "../types";
 
 export const lessonData: LessonContent = {
   title:
-    "Nhà nước của nhân dân, do nhân dân, vì nhân dân",
+    "Tư tưởng Hồ Chí Minh về độc lập dân tộc và chủ nghĩa xã hội",
   summary: [
-    "Tư tưởng Hồ Chí Minh về Nhà nước của nhân dân, do nhân dân, vì nhân dân là một nội dung cốt lõi trong tư tưởng chính trị của Người.",
-    "Quan điểm này thể hiện rõ bản chất, vai trò, chức năng của Nhà nước Việt Nam Dân chủ Cộng hòa và tinh thần dân chủ sâu sắc, tình yêu thương vô bờ đối với nhân dân.",
-    "Tư tưởng được cụ thể hóa thành các nguyên tắc, hình thức thực thi quyền lực và phương thức xây dựng nhà nước trong sạch, vững mạnh.",
+    "Tôi tuyệt nhiên không ham muốn công danh phú quý chút nào. Riêng phần tôi thì làm một cái nhà nho nhỏ nơi có non xanh, nước biếc để câu cá trồng rau, sớm chiều làm bạn với các cụ già hái củi, trẻ em chăn trâu, không dính líu gì tới vòng danh lợi." ,
+    "Tôi chỉ có một ham muốn, ham muốn tột bậc: là làm sao cho nước nhà được hoàn toàn độc lập, dân ta được hoàn toàn tự do, đồng bào ai cũng có cơm ăn áo mặc, ai cũng được học hành"
   ],
   videos: [
   {
@@ -108,24 +107,24 @@ export const lessonData: LessonContent = {
       significance: "Làm rõ bản chất dân chủ của nhà nước Việt Nam"
     },
     {
-      text: "Các công việc của Chính phủ làm phải nhằm vào một mục đích duy nhất là mưu tự do hạnh phúc cho mọi người.",
-      context: "Thư gửi đồng bào Nam bộ (1946)",
-      significance: "Xác định mục tiêu cao nhất của nhà nước là phục vụ nhân dân"
+      text: "Cách mệnh là việc chung cả dân chúng chứ không phải việc một hai người.",
+      context: "Tác phẩm Đường cách mệnh (1927)",
+      significance: "Khẳng định cách mạng là sự nghiệp của toàn dân, phải đoàn kết và huy động sức mạnh toàn dân mới thành công"
     },
      {
-    text: "Bao nhiêu lợi ích đều vì dân. Bao nhiêu quyền hạn đều của dân.",
-    context: "Bài 'Dân vận' đăng trên báo Sự Thật (15/10/1949)",
-    significance: "Khẳng định quyền làm chủ và quyền lợi tối cao của nhân dân"
+    text: "Hỡi đồng bào bị đọa đày đau khổ! Đây là cái cần thiết cho chúng ta, đây là con đường giải phóng chúng ta.",
+    context: "Hồi tưởng trong bài Con đường dẫn tôi đến chủ nghĩa Lênin (viết về năm 1920, khi đọc Luận cương của Lênin)",
+    significance: "Khẳng định con đường cách mạng vô sản là con đường cứu nước đúng đắn, đem lại giải phóng dân tộc"
   },
   {
-    text: "Việc gì lợi cho dân, ta phải hết sức làm. Việc gì hại đến dân, ta phải hết sức tránh.",
-    context: "Bài 'Dân vận' đăng trên báo Sự Thật (15/10/1949)",
-    significance: "Đặt lợi ích của nhân dân làm tiêu chí tối cao trong hoạt động của nhà nước"
+    text: "Chính vì Đảng Lao động Việt Nam là Đảng của giai cấp công nhân và nhân dân lao động, cho nên nó phải là Đảng của dân tộc Việt Nam.",
+    context: "Báo cáo chính trị tại Đại hội II của Đảng (1951)",
+    significance: "Phát triển lý luận Mác – Lênin, khẳng định Đảng Cộng sản Việt Nam không chỉ là đội tiên phong của giai cấp công nhân mà còn là Đảng của toàn dân tộc"
   },
   {
-    text: "Chính phủ là đầy tớ của dân, dân là chủ.",
-    context: "Phát biểu trong buổi tiếp xúc cử tri Hà Nội (1956)",
-    significance: "Làm rõ mối quan hệ phục vụ giữa nhà nước và nhân dân"
+    text: "Bất kỳ đàn ông, đàn bà, bất kỳ người già, người trẻ, không chia tôn giáo, đảng phái, dân tộc. Hễ là người Việt Nam thì phải đứng lên đánh thực dân Pháp để cứu Tổ quốc.",
+    context: "Lời kêu gọi toàn quốc kháng chiến, ngày 19/12/1946",
+    significance: "Khẳng định sức mạnh đại đoàn kết toàn dân là nhân tố quyết định thắng lợi trong kháng chiến"
   },
   {
     text: "Tôi chỉ có một ham muốn, ham muốn tột bậc, là làm sao cho nước ta được hoàn toàn độc lập, dân ta được hoàn toàn tự do, ai cũng có cơm ăn, áo mặc, ai cũng được học hành.",
@@ -179,41 +178,26 @@ export const lessonData: LessonContent = {
   cards: [
     {
       color: "red",
-      title: "Nhà nước dân chủ",
+      title: "Tư tưởng Hồ Chí Minh về độc lập dân tộc",
       items: [
         {
-          title: "Bản chất giai cấp của Nhà nước",
+          title: "Độc lập, tự do là quyền thiêng liêng, bất khả xâm phạm của tất cả các dân tộc",
           content: [
-            "- Nhà nước Việt Nam mới – Nhà nước Việt Nam Dân chủ Cộng hòa mang bản chất giai cấp công nhân, dưới sự lãnh đạo của Đảng Cộng sản Việt Nam.",
-            "- Nòng cốt của nhân dân là liên minh công – nông – trí, do giai cấp công nhân và Đảng Cộng sản Việt Nam lãnh đạo.",
-            "- Đảng cầm quyền bằng các phương thức:",
-            "1) Bằng đường lối quan điểm, chủ trương để Nhà nước thể chế hóa thành pháp luật, chính sách, kế hoạch.",
-            "2) Bằng hoạt động của các tổ chức và đảng viên của mình trong bộ máy, cơ quan nhà nước.",
-            "3) Bằng công tác kiểm tra.",
-            "- Nhà nước đồng thời có tính nhân dân và tính dân tộc sâu sắc.",
-            "+ Nhà nước mới ở Việt Nam ra đời là kết quả của cuộc đấu tranh lâu dài, gian khổ của nhiều thế hệ người Việt Nam, của toàn thể dân tộc.",
-            "+ Nhà nước Việt Nam không phải của riêng giai cấp, tầng lớp nào mà thuộc về nhân dân.",
+            "-1919: HCM gửi Bản Yêu sách của nhân dân An Nam tại Hội nghị Versailles → nêu quyền bình đẳng pháp lý & tự do, dân chủ cho dân tộc thuộc địa.",
+            "-Luận điểm nền tảng (tham chiếu Tuyên ngôn Độc lập Mỹ 1776; Nhân quyền & Dân quyền Pháp 1789/1791): “Tất cả các dân tộc trên thế giới đều sinh ra bình đẳng; dân tộc nào cũng có quyền sống, 1930 – Chánh cương vắn tắt: Mục tiêu đánh đổ đế quốc & phong kiến; làm cho nước Nam hoàn toàn độc lập. 1945 – Tuyên ngôn Độc lập: Khẳng định quyền tự do, độc lập; ý chí “đem tất cả tinh thần, lực lượng, tính mạng và của cải để giữ vững”."
+                  ],
+        },
+        {
+          title: "Độc lập dân tộc phải gắn liền tự do, cơm no, áo ấm và hạnh phúc của nhân dân",
+          content: [
+            "-Bác bỏ “độc lập giả hiệu” kiểu chính phủ bù nhìn của thực dân đế quốc.",
+            "-Nội hàm độc lập thật sự: Có ngoại giao riêng, quân đội riêng, tài chính riêng…",
+            "-6/3/1946 – Hiệp định Sơ bộ với Pháp: Pháp công nhận VNDCCH là một quốc gia tự do, có Chính phủ, Nghị viện, quân đội, tài chính của mình.",
+            "-Tư tưởng chỉ đạo: Kiên trì sách lược mềm dẻo để giữ vững thực quyền quốc gia trong bối cảnh “thù trong giặc ngoài”. ",
           ],
         },
         {
-          title: "Nhà nước của nhân dân",
-          content: [
-            "- NHÂN DÂN LÀ CHỦ, MỌI QUYỀN LỰC THUỘC VỀ NHÂN DÂN",
-            '-> Hồ Chí Minh khẳng định: "Trong nước Việt Nam Dân chủ Cộng hòa của chúng ta, tất cả mọi quyền lực đều là của nhân dân"',
-            "- QUYỀN LỰC NHÀ NƯỚC LÀ 'THỪA ỦY QUYỀN' CỦA NHÂN DÂN: ",
-            '-> Theo Hồ Chí Minh: "Dân làm chủ thì Chủ tịch, bộ trưởng, thứ trưởng, ủy viên này ủy viên khác là làm gì? Làm đầy tớ. Làm đầy tớ cho nhân dân, chứ không phải là làm quan cách mạng"',
-            '"Nước ta là nước dân chủ, địa vị cao nhất là dân, vì dân là chủ. Trong bộ máy cách mạng, từ người quét nhà, nấu ăn cho đến Chủ tịch một nước đều là phân công làm đầy tớ cho dân."',
-            "- HÌNH THỨC THỰC THI QUYỀN LỰC CỦA NHÂN DÂN:",
-            "+ Dân chủ TRỰC TIẾP: là hình thức dân chủ trong đó nhân dân trực tiếp quyết định mọi vấn đề liên quan đến vận mệnh của quốc gia, dân tộc, và quyền lợi của dân chúng",
-            "+ Dân chủ GIÁN TIẾP: hay là dân chủ đại diện là hình thức dân chủ được sử dụng rộng rãi nhằm thực thi quyền lực của nhân dân",
-            "- QUYỀN CỦA NHÂN DÂN",
-            "+ Nhân dân quyết định tổ chức và hoạt động của bộ máy nhà nước",
-            "+ Nhân dân có quyền giám sát, bãi miễn cán bộ không xứng đáng",
-            "+ Luật pháp dân chủ và là công cụ quyền lực của nhân dân",
-          ],
-        },
-        {
-          title: "Nhà nước do nhân dân",
+          title: "Độc lập dân tộc phải là nền độc lập thật sự, hoàn toàn và triệt để",
           content: [
             "- Do nhân dân lập ra thông qua bầu cử dân chủ, phổ thông, bình đẳng, trực tiếp và bỏ phiếu kín.",
             '-> Hồ Chí Minh khẳng định rõ: "Nước ta là nước dân chủ, nghĩa là nước nhà do dân làm chủ. Nhân dân có quyền lợi làm chủ thì phải có nghĩa vụ làm tròn bổn phận công dân, giữ đúng đạo đức công dân."',
@@ -222,80 +206,101 @@ export const lessonData: LessonContent = {
           ],
         },
         {
-          title: "Nhà nước vì nhân dân",
+          title: "Độc lập dân tộc gắn liền với thống nhất và toàn vẹn lãnh thổ",
           content: [
-            '- Không có đặc quyền, đặc lợi, thực sự trong sạch, cần, kiệm, liêm, chính; cán bộ là "công bộc" của dân.',
-            "- Mục tiêu tối cao:  phục vụ lợi ích và hạnh phúc của nhân dân.",
-            '-> Hồ Chí Minh nói: "Các công việc của Chính phủ làm phải nhằm vào một mục đích duy nhất là mưu tự do hạnh phúc cho mọi người. Cho nên Chính phủ nhân dân bao giờ cũng phải đặt quyền lợi dân lên trên hết thảy. Việc gì có lợi cho dân thì làm. Việc gì có hại cho dân thì phải tránh."',
-            '- Nhà nước vì dân phải được lòng dân, "làm sao cho được lòng dân, dân tin, dân mến, dân yêu".  Muốn được dân yêu, muốn được lòng dân, trước hết phải yêu dân, phải đặt quyền lợi của dân trên hết thảy, phải có một tinh thần chí công vô tư.'
+            "-Lịch sử xâm lược luôn kèm âm mưu chia cắt: 3 kỳ thời Pháp; “Nam Kỳ tự trị”...",
+            "-1946 – Thư gửi đồng bào Nam Bộ: “Đồng bào Nam Bộ là dân nước Việt Nam. Sông có thể cạn, núi có thể mòn song chân lý đó không bao giờ thay đổi.” ",
+            "-1954 – Sau Hiệp định Giơnevơ (tạm thời chia cắt), HCM khẳng định: “Nước Việt Nam là một, dân tộc Việt Nam là một.” ",
+            "-Di chúc: Niềm tin tất thắng – Tổ quốc nhất định thống nhất, Bắc–Nam sum họp một nhà.  "
           ],
         },
       ],
     },
     {
       color: "yellow",
-      title: 'Nhà nước pháp quyền',
+      title: 'Cách mạng giải phóng dân tộc',
       items: [
         {
-          title: "Nhà nước hợp hiến, hợp pháp",
+          title: "Cách mạng vô sản",
           content: [
-            "- Hồ Chí Minh luôn chú trọng vấn đề xây dựng nền tảng pháp lý cho Nhà nước Việt Nam mới.",
-            "+ Tổ chức và hoạt động dựa trên Hiến pháp và pháp luật",
-            "+ Quyền lực nhà nước được phân công, phối hợp và kiểm soát theo luật định"
+            "-Bối cảnh lịch sử và khủng hoảng đường lối cách mạng.",
+            "-Ảnh hưởng của Cách mạng Tháng Mười Nga (1917).",
+            "-Khám phá con đường cách mạng vô sản qua Luận cương của Lenin (1920).",
+            "-Mối quan hệ giải phóng dân tộc và giải phóng giai cấp.",
+            "-Độc lập dân tộc gắn liền với chủ nghĩa xã hội.",
+            "-Sáng tạo của Hồ Chí Minh so với Quốc tế Cộng sản."
           
           ],
         },
          {
-          title: "Nhà nước thượng tôn pháp luật",
+          title: "Đảng Cộng Sản lãnh đạo",
           content: [
-            "- Mọi cá nhân, tổ chức, kể cả Nhà nước và cán bộ đều phải tuân theo pháp luật.",
-            '-> Hồ Chí Minh tuyên bố: "Pháp luật Việt Nam tuy khoan hồng với những người biết cải tà quy chính, nhưng sẽ thẳng tay trừng trị những tên Việt gian đầu sỏ đã bán nước buôn dân"',
-            "- Điều này đòi hỏi pháp luật phải công bằng, minh bạch, nghiêm minh.",
+            "-Lý luận Mác-Lênin về vai trò của Đảng Cộng sản.",
+            "-Hồ Chí Minh tiếp thu và nhấn mạnh vai trò Đảng.",
+            "-Vai trò Đảng trong hoàn cảnh Việt Nam thuộc địa - phong kiến.", 
+            "-Khẳng định trong Báo cáo Chính trị tại Đại hội II Đảng."
           ],
         },
         {
-          title:  "Pháp quyền nhân nghĩa",
+          title:  "Lực lượng đại đoàn kết toàn dân tộc, lấy liên minh công - nông làm nền tảng",
           content: [
-            "- Pháp quyền nhân nghĩa tức là Nhà nước phải tôn trọng, bảo đảm thực hiện đầy đủ các quyền con người, chăm lo đến lợi ích của mọi người",
-            "- Trong pháp quyền nhân nghĩa:",
-            "+ Pháp luật vừa nghiêm khắc vừa nhân đạo, bảo vệ quyền và lợi ích hợp pháp của nhân dân",
-            "+ Kết hợp kỷ cương pháp luật với tình thương, đạo lý",
-            "+ Pháp luật trong nhà nước pháp quyền nhân nghĩa phải là pháp luật vì con người"
+            "-Lý luận Mác-Lênin về vai trò quần chúng nhân dân trong cách mạng.",
+            "-Hồ Chí Minh kế thừa và phát triển tư tưởng trên.",
+            "-Kêu gọi đoàn kết toàn dân trong kháng chiến chống Pháp lần hai.",
+            "-Vai trò cốt lõi của công nông trong lực lượng cách mạng."
+          ],
+        },
+        {
+          title: "Chủ động, sáng tạo, có khả năng giành thắng lợi trước cách mạng vô sản ở chính quốc",
+          content: [
+            "-Mối quan hệ khăng khít, bình đẳng giữa hai cuộc cách mạng.",
+            "-Cách mạng thuộc địa có khả năng thắng lợi trước.",
+            "-Tính chủ động và sáng tạo của nhân dân thuộc địa."
+          ],
+        },
+        {
+          title: "Phương pháp bạo lực cách mạng",
+          content: [
+            "-Lý luận Mác-Lênin về bạo lực cách mạng.",
+            "-Hồ Chí Minh vận dụng sáng tạo lý luận về bạo lực cách mạng.",
+            "-Sáng tạo của Hồ Chí Minh về bạo lực cách mạng.",
+            "-Thực tiễn chứng minh tính đúng đắn của tư tưởng Hồ Chí Minh."
+          
           ],
         },
       ]
     },
-    {
-      color: "green",
-      title: ' Nhà nước trong sạch, vững mạnh',
-      items: [
-        {
-          title: "Kiểm soát quyền lực nhà nước",
-          content: [
-            "- Quyền lực phải được phân công, phối hợp, kiểm soát để tránh lạm quyền",
-            "- Cơ chế giám sát của nhân dân và các tổ chức chính trị – xã hội"
+    // {
+    //   color: "green",
+    //   title: ' Nhà nước trong sạch, vững mạnh',
+    //   items: [
+    //     {
+    //       title: "Kiểm soát quyền lực nhà nước",
+    //       content: [
+    //         "- Quyền lực phải được phân công, phối hợp, kiểm soát để tránh lạm quyền",
+    //         "- Cơ chế giám sát của nhân dân và các tổ chức chính trị – xã hội"
           
-          ],
-        },
-         {
-          title: "Phòng chống tiêu cực trong Nhà nước",
-          content: [
-            "- Hồ Chí Minh thường nói đến các tiêu cực để nhắc nhở mọi người đề phòng và khắc phục:",
-            "+ Đặc quyền, đặc lợi: Xây dựng nhà nước vững mạnh trong sạch đòi hỏi phải tẩy trừ những thói cậy mình là người trong cơ quan chính quyền để cửa quyền, hách dịch với dân, làm quyền, đồng thời vơ vét tiền của, lợi dụng chức quyền để làm lợi cho cá nhân mình.",
-            "+ Chống tham nhũng, quan liêu, lãng phí:",
-             ' 1.Hồ Chí Minh coi tham ô, lãng phí, quan liêu là "giặc nội xâm", "giặc ở trong lòng". Người thường phê bình những người "lấy của công dùng vào việc tư, quên cả thanh liên, đạo đức".',
-             ' 2.Quan điểm của Hồ Chí Minh là: "Tham ô, lãng phí và bệnh quan liêu, dù cố ý hay không, cũng là bạn đồng minh của thực dân và phong kiến. Tội lỗi ấy cũng nặng như tội lỗi Việt gian, mật thám."',
-            "- Biện pháp phòng chống tiêu cực:",
-            "1. Nâng cao trình độ dân chủ trong xã hội, thực hành dân chủ rộng rãi, phát huy quyền làm chủ của nhân dân là giải pháp căn bản và có ý nghĩa lâu dài",
-            "2. Pháp luật của Nhà nước, Kỷ luật của Đảng phải nghiêm minh. Công tác kiểm tra phải thường xuyên. Xây dựng đội ngũ cán bộ Cần – Kiệm – Liêm – Chính – Chí công vô tư",
-            "3. Phạt nghiêm minh, nghiêm khắc, đúng người đúng tội là cần thiết",
-            "4. Tăng cường giáo dục đạo đức, bồi dưỡng năng lực cho cán bộ, công chức. Cán bộ phải đi trước làm gương, cán bộ vị càng cao, trách nhiệm nêu gương càng lớn",
-            "5. Phải huy động sức mạnh của chủ nghĩa yêu nước vào các cuộc chiến chống lại tiêu cực trong con người trong xã hội và trong bộ máy nhà nước"
+    //       ],
+    //     },
+    //      {
+    //       title: "Phòng chống tiêu cực trong Nhà nước",
+    //       content: [
+    //         "- Hồ Chí Minh thường nói đến các tiêu cực để nhắc nhở mọi người đề phòng và khắc phục:",
+    //         "+ Đặc quyền, đặc lợi: Xây dựng nhà nước vững mạnh trong sạch đòi hỏi phải tẩy trừ những thói cậy mình là người trong cơ quan chính quyền để cửa quyền, hách dịch với dân, làm quyền, đồng thời vơ vét tiền của, lợi dụng chức quyền để làm lợi cho cá nhân mình.",
+    //         "+ Chống tham nhũng, quan liêu, lãng phí:",
+    //          ' 1.Hồ Chí Minh coi tham ô, lãng phí, quan liêu là "giặc nội xâm", "giặc ở trong lòng". Người thường phê bình những người "lấy của công dùng vào việc tư, quên cả thanh liên, đạo đức".',
+    //          ' 2.Quan điểm của Hồ Chí Minh là: "Tham ô, lãng phí và bệnh quan liêu, dù cố ý hay không, cũng là bạn đồng minh của thực dân và phong kiến. Tội lỗi ấy cũng nặng như tội lỗi Việt gian, mật thám."',
+    //         "- Biện pháp phòng chống tiêu cực:",
+    //         "1. Nâng cao trình độ dân chủ trong xã hội, thực hành dân chủ rộng rãi, phát huy quyền làm chủ của nhân dân là giải pháp căn bản và có ý nghĩa lâu dài",
+    //         "2. Pháp luật của Nhà nước, Kỷ luật của Đảng phải nghiêm minh. Công tác kiểm tra phải thường xuyên. Xây dựng đội ngũ cán bộ Cần – Kiệm – Liêm – Chính – Chí công vô tư",
+    //         "3. Phạt nghiêm minh, nghiêm khắc, đúng người đúng tội là cần thiết",
+    //         "4. Tăng cường giáo dục đạo đức, bồi dưỡng năng lực cho cán bộ, công chức. Cán bộ phải đi trước làm gương, cán bộ vị càng cao, trách nhiệm nêu gương càng lớn",
+    //         "5. Phải huy động sức mạnh của chủ nghĩa yêu nước vào các cuộc chiến chống lại tiêu cực trong con người trong xã hội và trong bộ máy nhà nước"
 
-          ],
-        },
-      ]
-    }
+    //       ],
+    //     },
+    //   ]
+    // }
   ],
 };
 

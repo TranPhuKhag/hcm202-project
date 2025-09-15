@@ -69,7 +69,7 @@ const LessonIntroduction: React.FC = () => {
             <div className="lesson-summary">
               {lessonData.summary.map((paragraph, index) => (
                 <p key={index} className="summary-paragraph">
-                  {paragraph}
+                  "{paragraph}"
                 </p>
               ))}
             </div>
@@ -77,7 +77,7 @@ const LessonIntroduction: React.FC = () => {
         </div>
       </section>
 
-      {lessonData.images.length > 0 && (
+      {/* {lessonData.images.length > 0 && (
         <div className="carousel">
           <div
             className="carousel-inner"
@@ -116,7 +116,7 @@ const LessonIntroduction: React.FC = () => {
             ))}
           </div>
         </div>
-      )}
+      )} */}
 
 
       <section className="content-section">

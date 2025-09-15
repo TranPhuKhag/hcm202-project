@@ -3,7 +3,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
 }
 
 .leaderboard-header {
@@ -124,7 +124,7 @@
 }
 
 .podium-item.rank-bronze {
-  background: linear-gradient(135deg, #fca5a5, #ef4444);
+  background:  #cb7e7e;
   color: #991b1b;
   order: 3;
 }

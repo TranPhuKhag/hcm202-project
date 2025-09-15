@@ -21,7 +21,7 @@
   width: 100%;
   margin: 0 auto;
   padding: 2rem;
-  background-color: var(--background-color);
+  /* background-color: var(--background-color); */
   font-family: var(--font-family);
   min-height: calc(100vh - 80px);
   display: flex;
@@ -32,7 +32,7 @@
 .quiz-card {
   width: 100%;
   max-width: 800px;
-  background: var(--card-background);
+  /* background: var(--card-background); */
   border-radius: 20px;
   box-shadow: var(--card-shadow);
   padding: 2.5rem;

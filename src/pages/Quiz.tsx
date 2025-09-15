@@ -7,9 +7,9 @@ import { generateAIQuiz } from '../utils/geminiService';
 import type { QuizResult } from '../types';
 import './Quiz.css';
 
-const STANDARD_QUESTION_TIME = 30; // 30 giây cho câu hỏi chuẩn
+const STANDARD_QUESTION_TIME = 100; // 3 giây cho câu hỏi chuẩn
 const AI_QUESTION_TIME = 60; // 60 giây cho câu hỏi AI
-const STANDARD_TOTAL_TIME = 300; // 5 phút cho quiz chuẩn
+const STANDARD_TOTAL_TIME = 10000; //  phút cho quiz chuẩn
 const AI_TOTAL_TIME = 420; // 7 phút cho AI quiz (5 câu x 60s + buffer)
 
 type QuizMode = 'standard' | 'ai';
@@ -280,7 +280,7 @@ const Quiz: React.FC = () => {
             {quizMode === 'ai' 
               ? `Thử thách bản thân với ${questionCount} câu hỏi được tạo bởi AI về tư tưởng Hồ Chí Minh.`
               : `Bài kiểm tra gồm ${questionCount} câu hỏi trắc nghiệm về tư tưởng Hồ Chí Minh.`}
-          </p>
+          </p>  
           
           {/* Quiz Mode Selection */}
           <div className="quiz-mode-selection">
