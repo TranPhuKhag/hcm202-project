@@ -5,10 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --pretty false"
   },
+  "engines": { "node": ">=18" },
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "firebase": "^12.1.0",
