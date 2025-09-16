@@ -18,7 +18,7 @@ const AIChatbot: React.FC<AIChatbotProps> = ({ isFloatingMode = false }) => {
     const welcomeMessage: ChatMessage = {
       id: '1',
       role: 'assistant',
-      content: 'Xin chào! Tôi là trợ lý AI chuyên về tư tưởng Hồ Chí Minh. Tôi có thể giúp bạn trả lời các câu hỏi liên quan đến bài học "Tư tưởng Hồ Chí Minh về Nhà nước của dân, do dân, vì dân". Hãy đặt câu hỏi cho tôi nhé!',
+      content: 'Xin chào! Tôi là trợ lý AI chuyên về tư tưởng Hồ Chí Minh. Tôi có thể giúp bạn trả lời các câu hỏi liên quan đến bài học "Tư tưởng Hồ Chí Minh về độc lập dân tộc". Hãy đặt câu hỏi cho tôi nhé!',
       timestamp: new Date()
     };
     setMessages([welcomeMessage]);
@@ -68,7 +68,7 @@ const AIChatbot: React.FC<AIChatbotProps> = ({ isFloatingMode = false }) => {
 
 NHIỆM VỤ: Hãy trả lời chi tiết, đầy đủ và có chiều sâu về các câu hỏi liên quan đến:
 
-1. 🏛️ Tư tưởng Hồ Chí Minh về nhà nước của dân, do dân, vì dân
+1. 🏛️ Tư tưởng Hồ Chí Minh về độc lập dân tộc
 2. 📖 Khái niệm và ý nghĩa sâu sắc của "của dân", "do dân", "vì dân"
 3. 👥 Vai trò của nhân dân trong nhà nước theo tư tưởng Hồ Chí Minh
 4. 🇻🇳 Ý nghĩa và giá trị của tư tưởng này đối với Việt Nam hiện đại
