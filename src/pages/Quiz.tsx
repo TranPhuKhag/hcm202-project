@@ -7,9 +7,9 @@ import { generateAIQuiz } from '../utils/geminiService';
 import type { QuizResult } from '../types';
 import './Quiz.css';
 
-const STANDARD_QUESTION_TIME = 10; // 3 giây cho câu hỏi chuẩn
+const STANDARD_QUESTION_TIME = 15; // 3 giây cho câu hỏi chuẩn
 const AI_QUESTION_TIME = 60; // 60 giây cho câu hỏi AI
-const STANDARD_TOTAL_TIME = 100; //  phút cho quiz chuẩn
+const STANDARD_TOTAL_TIME = 150; //  phút cho quiz chuẩn
 const AI_TOTAL_TIME = 420; // 7 phút cho AI quiz (5 câu x 60s + buffer)
 
 type QuizMode = 'standard' | 'ai';

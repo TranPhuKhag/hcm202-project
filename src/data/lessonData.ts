@@ -97,49 +97,34 @@ export const lessonData: LessonContent = {
 ],
   keyQuotes: [
     {
-      text: "Dân là gốc của nước, gốc vững thì nước mới yên.",
-      context: "Phát biểu tại Đại hội đại biểu toàn quốc lần thứ II của Đảng (1951)",
-      significance: "Khẳng định vai trò cơ bản của nhân dân trong việc xây dựng và bảo vệ đất nước"
-    },
-    {
-      text: "Nước ta là nước dân chủ, địa vị cao nhất là dân, vì dân là chủ.",
-      context: "Nói chuyện với cán bộ Bộ Nội vụ (1948)",
-      significance: "Làm rõ bản chất dân chủ của nhà nước Việt Nam"
-    },
-    {
-      text: "Cách mệnh là việc chung cả dân chúng chứ không phải việc một hai người.",
-      context: "Tác phẩm Đường cách mệnh (1927)",
-      significance: "Khẳng định cách mạng là sự nghiệp của toàn dân, phải đoàn kết và huy động sức mạnh toàn dân mới thành công"
-    },
-     {
-    text: "Hỡi đồng bào bị đọa đày đau khổ! Đây là cái cần thiết cho chúng ta, đây là con đường giải phóng chúng ta.",
-    context: "Hồi tưởng trong bài Con đường dẫn tôi đến chủ nghĩa Lênin (viết về năm 1920, khi đọc Luận cương của Lênin)",
-    significance: "Khẳng định con đường cách mạng vô sản là con đường cứu nước đúng đắn, đem lại giải phóng dân tộc"
+    text: "Tôi chỉ có một ham muốn, ham muốn tột bậc: là làm sao cho nước nhà được hoàn toàn độc lập, dân ta được hoàn toàn tự do, đồng bào ai cũng có cơm ăn áo mặc, ai cũng được học hành",
+    context: "Phát biểu sau Cách mạng Tháng Tám (1946)",
+    significance: "Tuyên ngôn mục tiêu tối thượng: độc lập dân tộc gắn với ấm no, học hành cho toàn dân"
   },
   {
-    text: "Chính vì Đảng Lao động Việt Nam là Đảng của giai cấp công nhân và nhân dân lao động, cho nên nó phải là Đảng của dân tộc Việt Nam.",
-    context: "Báo cáo chính trị tại Đại hội II của Đảng (1951)",
-    significance: "Phát triển lý luận Mác – Lênin, khẳng định Đảng Cộng sản Việt Nam không chỉ là đội tiên phong của giai cấp công nhân mà còn là Đảng của toàn dân tộc"
+    text: "“Những quyền mà không ai có thể xâm phạm được” đã được ghi trong Tuyên ngôn Độc lập của cách mạng Mỹ (1776) và Tuyên ngôn Nhân quyền và Dân quyền của Cách mạng Pháp (1791).",
+    context: "Lập luận pháp lý Hồ Chí Minh viện dẫn trong Tuyên ngôn Độc lập (02/09/1945)",
+    significance: "Cơ sở pháp lý–đạo lý quốc tế để nâng từ quyền con người lên quyền dân tộc; chiến lược “lấy gậy ông đập lưng ông”"
   },
   {
-    text: "Bất kỳ đàn ông, đàn bà, bất kỳ người già, người trẻ, không chia tôn giáo, đảng phái, dân tộc. Hễ là người Việt Nam thì phải đứng lên đánh thực dân Pháp để cứu Tổ quốc.",
-    context: "Lời kêu gọi toàn quốc kháng chiến, ngày 19/12/1946",
-    significance: "Khẳng định sức mạnh đại đoàn kết toàn dân là nhân tố quyết định thắng lợi trong kháng chiến"
+    text: "Tất cả các dân tộc trên thế giới đều sinh ra bình đẳng, dân tộc nào cũng có quyền sống, quyền sung sướng và quyền tự do... Đó là những lẽ phải không ai chối cãi được.",
+    context: "Tuyên ngôn Độc lập tại Quảng trường Ba Đình (02/09/1945)",
+    significance: "Khái quát quyền dân tộc từ quyền con người, khẳng định chính nghĩa độc lập"
   },
   {
-    text: "Tôi chỉ có một ham muốn, ham muốn tột bậc, là làm sao cho nước ta được hoàn toàn độc lập, dân ta được hoàn toàn tự do, ai cũng có cơm ăn, áo mặc, ai cũng được học hành.",
-    context: "Trả lời phỏng vấn của nhà báo Pháp (1946)",
-    significance: "Thể hiện mục tiêu toàn diện của cách mạng về độc lập, tự do và hạnh phúc cho nhân dân"
+    text: "Không! Chúng ta thà hy sinh tất cả, chứ nhất định không chịu mất nước, nhất định không chịu làm nô lệ.",
+    context: "Lời kêu gọi Toàn quốc kháng chiến (19/12/1946)",
+    significance: "Hiệu triệu ý chí toàn dân bảo vệ độc lập; tinh thần quyết tử cho Tổ quốc quyết sinh"
   },
   {
-    text: "Dễ trăm lần không dân cũng chịu, khó vạn lần dân liệu cũng xong.",
-    context: "Lời dạy trong công tác dân vận",
-    significance: "Khẳng định sức mạnh và vai trò quyết định của nhân dân trong mọi công việc"
+    text: "Không có gì quý hơn độc lập, tự do.",
+    context: "Thông điệp phát thanh gửi đồng bào và chiến sĩ cả nước (17/07/1966)",
+    significance: "Chân lý thời đại, kim chỉ nam cho đường lối kháng chiến và dựng nước"
   },
   {
-    text: "Nếu Chính phủ làm hại dân thì dân có quyền đuổi Chính phủ.",
-    context: "Bài nói chuyện tại lớp chỉnh huấn cán bộ (1953)",
-    significance: "Thể hiện tư tưởng tiến bộ về quyền giám sát và thay đổi chính quyền của nhân dân"
+    text: "Nước độc lập mà dân không hưởng hạnh phúc, tự do, thì độc lập cũng chẳng có nghĩa lý gì.",
+    context: "Phát biểu sau Cách mạng Tháng Tám (1945)",
+    significance: "Định nghĩa độc lập thực chất: gắn với quyền tự do và đời sống ấm no của nhân dân"
   }
   ],
   interactiveElements: [
