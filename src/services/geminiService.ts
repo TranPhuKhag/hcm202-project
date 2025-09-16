@@ -30,7 +30,7 @@ class GeminiService {
   // Tạo prompt để tìm ảnh liên quan
   async generateImageSearchTerms(): Promise<string[]> {
     const prompt = `
-    Tạo 5 từ khóa tìm kiếm ảnh bằng tiếng Anh liên quan đến chủ đề "Tư tưởng Hồ Chí Minh về nhà nước của dân, do dân, vì dân".
+    Tạo 5 từ khóa tìm kiếm ảnh bằng tiếng Anh liên quan đến chủ đề "Tư tưởng Hồ Chí Minh về độc lập dân tộc".
     
     Yêu cầu:
     - Mỗi từ khóa 2-4 từ
