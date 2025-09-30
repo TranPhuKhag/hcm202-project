@@ -1,0 +1,115 @@
+/* KeyQuotes.css */
+.quotes-section {
+  margin: 2rem 0;
+}
+
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+}
+
+.quote-card {
+  background: var(--card-background);
+  border-radius: 16px;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  border-left: 5px solid var(--primary-color);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.quote-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle, rgba(197, 48, 48, 0.1) 0%, transparent 70%);
+  border-radius: 50%;
+  transform: translate(50%, -50%);
+}
+
+.quote-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.quote-text {
+  position: relative;
+  margin-bottom: 1.5rem;
+}
+
+.quote-mark {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  color: var(--primary-color);
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.quote-text p {
+  font-size: 1.1rem;
+  font-style: italic;
+  line-height: 1.6;
+  color: var(--secondary-color);
+  font-weight: 500;
+  margin: 0;
+  padding-left: 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.quote-context {
+  margin-bottom: 1rem;
+}
+
+.context-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--text-color);
+  background: #f8fafc;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+}
+
+.context-info svg {
+  color: var(--primary-color);
+  flex-shrink: 0;
+}
+
+.quote-significance {
+  background: linear-gradient(135deg, #fef2f2 0%, #fdf2f8 100%);
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid #fecaca;
+  color: var(--secondary-color);
+  line-height: 1.5;
+  font-size: 0.95rem;
+}
+
+.quote-significance strong {
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .quotes-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .quote-card {
+    padding: 1rem;
+  }
+  
+  .quote-text p {
+    font-size: 1rem;
+  }
+}

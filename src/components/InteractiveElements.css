@@ -1,0 +1,227 @@
+/* InteractiveElements.css */
+.interactive-section {
+  margin: 2rem 0;
+}
+
+.elements-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1.5rem;
+}
+
+.element-card {
+  background: var(--card-background);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.element-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.element-card.poll {
+  border-top: 4px solid #3b82f6;
+}
+
+.element-card.reflection {
+  border-top: 4px solid #f59e0b;
+}
+
+.element-card.discussion {
+  border-top: 4px solid #10b981;
+}
+
+.element-card.mindmap {
+  border-top: 4px solid #8b5cf6;
+}
+
+.element-header {
+  padding: 1rem 1.5rem;
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  border-bottom: 1px solid var(--border-color);
+}
+
+.element-type {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.element-body {
+  padding: 1.5rem;
+}
+
+.element-title {
+  color: var(--secondary-color);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 1rem 0;
+}
+
+.element-content {
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0 0 1.5rem 0;
+}
+
+/* Poll Styles */
+.poll-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.poll-option {
+  position: relative;
+}
+
+.poll-option-button {
+  width: 100%;
+  background: var(--background-color);
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.poll-option-button:hover {
+  border-color: var(--primary-color);
+  background: #fef2f2;
+}
+
+.option-text {
+  display: block;
+  font-weight: 500;
+  color: var(--secondary-color);
+  position: relative;
+  z-index: 2;
+}
+
+.poll-result {
+  margin-top: 0.5rem;
+  position: relative;
+}
+
+.poll-bar {
+  height: 4px;
+  background: var(--primary-gradient);
+  border-radius: 2px;
+  transition: width 0.5s ease;
+}
+
+.poll-percentage {
+  position: absolute;
+  right: 0;
+  top: -1.5rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.poll-total {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--text-color);
+  font-style: italic;
+}
+
+/* Reflection Styles */
+.reflection-input {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.reflection-input textarea {
+  width: 100%;
+  border: 2px solid var(--border-color);
+  border-radius: 8px;
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  resize: vertical;
+  transition: border-color 0.3s ease;
+}
+
+.reflection-input textarea:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.submit-reflection {
+  align-self: flex-start;
+  background: var(--primary-gradient);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.submit-reflection:hover {
+  transform: scale(1.02);
+}
+
+.submit-reflection:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.reflection-submitted {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: #f0fdf4;
+  border: 1px solid #bbf7d0;
+  border-radius: 8px;
+}
+
+.reflection-response {
+  margin-top: 0.5rem;
+  padding: 1rem;
+  background: white;
+  border-radius: 6px;
+  border-left: 4px solid var(--primary-color);
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* Discussion Styles */
+.discussion-placeholder {
+  text-align: center;
+  padding: 2rem;
+  color: var(--text-color);
+}
+
+.discussion-placeholder svg {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.discussion-placeholder p {
+  margin: 0.5rem 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .elements-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .element-body {
+    padding: 1rem;
+  }
+}

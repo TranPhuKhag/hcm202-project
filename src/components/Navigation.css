@@ -1,0 +1,203 @@
+/* src/components/Navigation.css */
+.navigation {
+    background: var(--card-background);
+    color: var(--secondary-color);
+    padding: 1rem 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.nav-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+.icon-container {
+    width: 4rem;
+    height: 4rem;
+    background-color: #facc15;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-icon {
+    width: 2rem;
+    height: 2rem;
+    color: #dc2626;
+}
+
+.nav-title {
+    font-size: 1.8rem;
+    font-weight: 800;
+    margin: 0;
+    color: var(--primary-color);
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-link {
+    color: var(--text-color);
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    font-weight: 700;
+    position: relative;
+}
+
+.nav-link:after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 50%;
+    background-color: var(--primary-color);
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+}
+
+.nav-link:hover,
+.nav-link.active {
+    color: var(--primary-color);
+}
+
+.nav-link:hover:after,
+.nav-link.active:after {
+    width: 100%;
+}
+
+.nav-link.ai-challenge {
+    background: var(--primary-gradient);
+    color: white;
+    border-radius: 8px;
+    padding: 0.6rem 1.2rem;
+    box-shadow: 0 4px 6px rgba(197, 48, 48, 0.2);
+}
+
+.nav-link.ai-challenge:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 7px 10px rgba(197, 48, 48, 0.3);
+    color: white;
+}
+
+.nav-link.ai-challenge:after {
+    display: none; /* No underline for the button-like link */
+}
+
+/* Mobile Menu Button */
+.mobile-menu-button {
+    display: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+    z-index: 1001;
+}
+
+.hamburger {
+    width: 25px;
+    height: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hamburger span {
+    display: block;
+    height: 3px;
+    width: 100%;
+    background: var(--secondary-color);
+    border-radius: 1px;
+    transition: all 0.3s ease;
+}
+
+.hamburger.active span {
+    background: var(--primary-color);
+}
+
+.hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+
+.hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Mobile Menu Panel */
+@media (max-width: 768px) {
+    .nav-container {
+        padding: 0 1rem;
+    }
+
+    .nav-title {
+        font-size: 1.5rem;
+    }
+
+    .mobile-menu-button {
+        display: block;
+    }
+
+    .nav-menu {
+        position: fixed;
+        top: 65px; /* Height of the navbar */
+        right: -100%;
+        height: calc(100vh - 65px);
+        width: 280px;
+        background: var(--card-background);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: stretch;
+        gap: 0;
+        padding: 2rem 0;
+        transition: right 0.3s ease-in-out;
+        z-index: 1000;
+        box-shadow: -2px 0 10px rgba(0, 0, 0, 0.1);
+        border-left: 1px solid var(--border-color);
+    }
+
+    .nav-menu.mobile-open {
+        right: 0;
+    }
+
+    .nav-link {
+        display: block;
+        padding: 1rem 2rem;
+        border-radius: 0;
+        font-size: 1.1rem;
+    }
+
+    .nav-link:hover, .nav-link.active {
+        background-color: #fef2f2;
+    }
+
+    .nav-link:after {
+        display: none; /* No underlines in mobile menu */
+    }
+
+    .nav-link.ai-challenge {
+        margin: 1rem 2rem;
+        text-align: center;
+    }
+}

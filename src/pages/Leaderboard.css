@@ -1,0 +1,367 @@
+/* src/pages/Leaderboard.css */
+.leaderboard-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  /* background-color: var(--background-color); */
+}
+
+.leaderboard-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.leaderboard-header h1 {
+  color: var(--primary-color);
+  font-size: 2.8rem;
+  font-weight: 800;
+  margin-bottom: 1rem;
+}
+
+.leaderboard-description {
+  font-size: 1.1rem;
+  color: var(--text-color);
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.controls-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.tab-navigation {
+  display: flex;
+  background-color: var(--card-background);
+  border-radius: var(--border-radius);
+  padding: 0.5rem;
+  box-shadow: var(--card-shadow);
+}
+
+.tab-button {
+  padding: 0.8rem 1.5rem;
+  border: none;
+  background: transparent;
+  color: var(--text-color);
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  transition: all 0.3s ease;
+}
+
+.tab-button.active {
+  background: var(--primary-gradient);
+  color: white;
+  box-shadow: 0 4px 10px rgba(197, 48, 48, 0.3);
+}
+
+.refresh-button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--card-background);
+  color: var(--secondary-color);
+  border: 2px solid var(--border-color);
+  padding: 0.8rem 1.5rem;
+  border-radius: var(--border-radius);
+  font-weight: 700;
+}
+
+.refresh-button:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  transform: translateY(-2px);
+  box-shadow: var(--card-shadow);
+}
+
+/* --- Podium --- */
+.podium {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.podium-item {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  border-radius: 20px;
+  width: 220px;
+  transition: all 0.3s ease;
+  position: relative;
+  box-shadow: var(--card-shadow);
+}
+
+.podium-item:hover {
+  transform: translateY(-10px);
+  box-shadow: var(--card-shadow-hover);
+}
+
+.podium-rank {
+  font-size: 4rem;
+  font-weight: 800;
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.podium-item.rank-gold {
+  background: linear-gradient(135deg, #fde047, #facc15);
+  color: #a16207;
+  order: 2;
+  transform: scale(1.1);
+}
+
+.podium-item.rank-silver {
+  background: linear-gradient(135deg, #e5e7eb, #d1d5db);
+  color: #4b5563;
+  order: 1;
+}
+
+.podium-item.rank-bronze {
+  background:  #cb7e7e;
+  color: #991b1b;
+  order: 3;
+}
+
+.podium-user h3 {
+  margin: 0.5rem 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.podium-score {
+  font-size: 2rem;
+  font-weight: 800;
+  margin: 0.5rem 0;
+}
+
+.podium-details {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-top: 0.5rem;
+}
+
+/* --- Leaderboard Table --- */
+.leaderboard-table {
+  background: var(--card-background);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+}
+
+.leaderboard-table table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.leaderboard-table th,
+.leaderboard-table td {
+  box-sizing: border-box;
+}
+
+.leaderboard-table th {
+  background: var(--background-color);
+  color: var(--secondary-color);
+  padding: 1.2rem 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  border-bottom: 2px solid var(--border-color);
+}
+
+.leaderboard-table th:nth-child(1) { width: 80px; text-align: center; } /* Hạng */
+.leaderboard-table th:nth-child(2) { width: 200px; text-align: left; } /* Tên */
+.leaderboard-table th:nth-child(3) { width: 100px; text-align: center; } /* Điểm */
+.leaderboard-table th:nth-child(4) { width: 150px; text-align: center; } /* Tỷ lệ */
+.leaderboard-table th:nth-child(5) { width: 120px; text-align: center; } /* Thời gian */
+.leaderboard-table th:nth-child(6) { width: auto; text-align: center; } /* Ngày làm bài */
+
+.leaderboard-table td {
+  padding: 1.2rem 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+  vertical-align: middle;
+  font-weight: 500;
+}
+
+.leaderboard-table td:nth-child(1) { width: 80px; } /* Hạng */
+.leaderboard-table td:nth-child(2) { width: 200px; } /* Tên */
+.leaderboard-table td:nth-child(3) { width: 100px; } /* Điểm */
+.leaderboard-table td:nth-child(4) { width: 150px; } /* Tỷ lệ */
+.leaderboard-table td:nth-child(5) { width: 120px; } /* Thời gian */
+.leaderboard-table td:nth-child(6) { width: auto; } /* Ngày làm bài */
+
+.leaderboard-table tr:last-child td {
+  border-bottom: none;
+}
+
+.leaderboard-table tr:hover {
+  background: #fef2f2;
+}
+
+.rank-cell {
+  text-align: center !important;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+
+.name-cell {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--secondary-color);
+  text-align: left !important;
+}
+
+.score-cell {
+  text-align: center !important;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--success-color);
+}
+
+.percentage-cell {
+  width: 150px;
+  padding: 1.2rem 1rem !important;
+  text-align: center !important;
+}
+
+.percentage-bar {
+  background: var(--border-color);
+  height: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 4px;
+}
+
+.percentage-fill {
+  height: 100%;
+  background: var(--primary-gradient);
+  border-radius: 5px;
+  transition: width 0.5s ease;
+}
+
+.percentage-text {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.time-cell, .date-cell {
+  font-size: 0.9rem;
+  color: var(--text-color);
+  text-align: center !important;
+}
+
+/* --- Stats --- */
+.leaderboard-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 3rem;
+}
+
+.stat-item {
+  background: var(--card-background);
+  padding: 1.5rem;
+  border-radius: var(--border-radius);
+  text-align: center;
+  box-shadow: var(--card-shadow);
+  border-bottom: 4px solid var(--border-color);
+  transition: all 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+  border-color: var(--primary-color);
+}
+
+.stat-item h4 {
+  color: var(--secondary-color);
+  margin: 0 0 0.5rem 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.stat-item span {
+  font-size: 2rem;
+  font-weight: 800;
+  color: var(--primary-color);
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .leaderboard-container { padding: 1rem; }
+  .leaderboard-header h1 { font-size: 2.2rem; }
+  .podium {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .podium-item { width: 100%; max-width: 300px; }
+  .podium-item.rank-gold { order: 1; transform: scale(1); }
+  .podium-item.rank-silver { order: 2; }
+  .podium-item.rank-bronze { order: 3; }
+  .leaderboard-table {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+  .leaderboard-table table {
+    min-width: 700px;
+  }
+  
+  /* Ensure thead and tbody stay aligned */
+  .leaderboard-table thead,
+  .leaderboard-table tbody {
+    display: table-header-group;
+  }
+  
+  .leaderboard-table tbody {
+    display: table-row-group;
+  }
+}
+.empty-leaderboard {
+  text-align: center;
+  padding: 3rem;
+  color: #666;
+}
+.loading, .error {
+  text-align: center;
+  padding: 3rem;
+}
+.spinner {
+  width: 50px;
+  height: 50px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #d32f2f;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 2rem auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.retry-button {
+  background: #d32f2f;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
